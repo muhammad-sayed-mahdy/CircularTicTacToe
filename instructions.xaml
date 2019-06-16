@@ -1,0 +1,37 @@
+﻿<Window x:Class="WpfApp1.instructions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Instructions" Height="610" Width="800" ResizeMode="NoResize" Icon="xo.png">
+    <Grid HorizontalAlignment="Left" Width="792" Height="569" VerticalAlignment="Top">
+        <Image Margin="58.337,25.585,490.338,300.09" Source="circle.png" Stretch="Fill"/>
+        <Image Margin="498.597,25.585,50.078,300.09" Source="circle.png" Stretch="Fill"/>
+        <Image Margin="498.597,294.246,50.078,31.429" Source="circle.png" Stretch="Fill"/>
+        <Image Margin="58.337,294.246,490.338,31.429" Source="circle.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="31.415" Margin="318,25.585,0,0" TextWrapping="Wrap" Text="Wining cases" VerticalAlignment="Top" Width="167.597" FontSize="20" Foreground="#FF359DFF" TextAlignment="Center"/>
+        <Image Margin="188,177.91,586,373.09" Source="x.png" Stretch="Fill"/>
+        <Image Margin="181,158.41,600.5,400.59" Source="x.png" Stretch="Fill"/>
+        <Image Margin="199.5,205.41,574.5,345.59" Source="x.png" Stretch="Fill"/>
+        <Image Margin="212.5,234.91,561.5,316.09" Source="x.png" Stretch="Fill"/>
+        <Image Margin="623,158.41,158.5,400.59" Source="x.png" Stretch="Fill"/>
+        <Image Margin="633.5,150.91,148,408.09" Source="x.png" Stretch="Fill"/>
+        <Image Margin="633.5,135.91,148,423.09" Source="x.png" Stretch="Fill"/>
+        <Image Margin="623,121.66,158.5,437.34" Source="x.png" Stretch="Fill"/>
+        <Image Margin="623,429.16,158.5,129.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="181,429.16,600.5,129.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="212.5,421.16,561.5,129.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="242.5,377.16,531.5,173.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="212.5,307.827,561.5,243.173" Source="x.png" Stretch="Fill"/>
+        <Image Margin="597.5,445.16,176.5,105.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="543.5,429.16,230.5,121.84" Source="x.png" Stretch="Fill"/>
+        <Image Margin="513.5,377.16,260.5,173.84" Source="x.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Height="31.415" Margin="92.903,268.91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.597" Foreground="#FF359DFF" TextAlignment="Center" FontSize="14" Text="Line from the center"/>
+        <TextBlock HorizontalAlignment="Left" Height="31.415" Margin="543.5,268.91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.597" Foreground="#FF359DFF" TextAlignment="Center" FontSize="14" Text="Half Ring"/>
+        <TextBlock HorizontalAlignment="Left" Height="31.415" Margin="92.903,542.571,0,-4.986" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.597" Foreground="#FF359DFF" TextAlignment="Center" FontSize="14"><Run Text="Spiral to the right"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="31.415" Margin="543.5,542.571,0,-4.986" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.597" Foreground="#FF359DFF" TextAlignment="Center" FontSize="14" Text="Spiral to the left"/>
+
+    </Grid>
+</Window>
