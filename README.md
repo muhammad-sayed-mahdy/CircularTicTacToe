@@ -11,5 +11,10 @@ A small desktop game like normal tic tac toe but more complex and has a lot of w
 
 ## Download:
 
-You can download the game from the following link:
+You can download the game from the following link:  
 [download](https://drive.google.com/open?id=14wUUJ_mAY8Mg4TI37794a9aXG7vmgumI)
+
+## Development:
+
+To develop the application using visual studio, just create a new solution and add  
+an existing project (which is "CircularTicTacToe.csproj")
