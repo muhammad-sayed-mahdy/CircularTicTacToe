@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Main Menu" Height="336" Width="300" ResizeMode="NoResize" Icon="xo.png">
+        Title="Main Menu" Height="336" Width="300" ResizeMode="NoResize" Icon="images/xo.png">
     <Grid>
         <Rectangle HorizontalAlignment="Left" Height="171.38" Margin="64,43.62,0,0" Stroke="Black" VerticalAlignment="Top" Width="176" Opacity="0.1" RadiusX="5" RadiusY="5"/>
 

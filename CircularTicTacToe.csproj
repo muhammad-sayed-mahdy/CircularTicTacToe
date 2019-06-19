@@ -168,22 +168,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="circle.png" />
+    <Resource Include="images/circle.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="x.png" />
+    <Resource Include="images/x.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="o.png" />
+    <Resource Include="images/o.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="help2.png" />
+    <Resource Include="images/help2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="pie.png" />
+    <Resource Include="images/pie.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="xo.png" />
+    <Resource Include="images/xo.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">

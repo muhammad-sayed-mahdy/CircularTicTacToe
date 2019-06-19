@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="WpfApp1.GameWindow"
-        mc:Ignorable="d" Height="450" Width="522" BorderBrush="#FF8AB7F1" ResizeMode="NoResize" Title="Circular Tic Tac Toe" Closing="Window_Closing" Icon="xo.png">
+        mc:Ignorable="d" Height="450" Width="522" BorderBrush="#FF8AB7F1" ResizeMode="NoResize" Title="Circular Tic Tac Toe" Closing="Window_Closing" Icon="images/xo.png">
     <Grid Margin="0,1,-8,-2" HorizontalAlignment="Left" VerticalAlignment="Top">
 
-        <Image x:Name="HelpImage" Source="help2.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="77" VerticalAlignment="Top" Margin="438,5,0,0" HorizontalAlignment="Left" Width="69" Opacity="0.6" MouseEnter="Image_MouseEnter" MouseLeave="HelpImage_MouseLeave"/>
+        <Image x:Name="HelpImage" Source="images/help2.png" Stretch="Fill" MouseLeftButtonDown="Image_MouseLeftButtonDown" Height="77" VerticalAlignment="Top" Margin="438,5,0,0" HorizontalAlignment="Left" Width="69" Opacity="0.6" MouseEnter="Image_MouseEnter" MouseLeave="HelpImage_MouseLeave"/>
 
         <ed:Arc x:Name="cell0" ArcThickness="100" ArcThicknessUnit="Pixel" EndAngle="180" HorizontalAlignment="Left" Height="100" Margin="207.5,157,0,0" Stretch="None" Stroke="Black" StartAngle="135" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Fill="#FFDADADA"/>
         <ed:Arc x:Name="cell1" ArcThickness="100" ArcThicknessUnit="Pixel" EndAngle="135" HorizontalAlignment="Left" Height="100" Margin="207.5,157,0,0" Stretch="None" Stroke="Black" StartAngle="90" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Fill="White"/>

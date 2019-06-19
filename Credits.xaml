@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Credits" Height="400" Width="500" ResizeMode="NoResize" Icon="xo.png">
+        Title="Credits" Height="400" Width="500" ResizeMode="NoResize" Icon="images/xo.png">
     <Grid>
-        <Image Margin="156,49,150,134" Source="pie.png" Stretch="Fill"/>
+        <Image Margin="156,49,150,134" Source="images/pie.png" Stretch="Fill"/>
         <Label Content="2018&#xD;&#xA;" HorizontalAlignment="Left" Margin="227,321,0,0" VerticalAlignment="Top"/>
         <Label Content="GUI by Muhammad Sayed&#xD;&#xA;Algorithm Idea by Mazen Amr&#xD;&#xA;Code by Muhammad Sayed, Karim Osama and Mazen Amr&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,242,0,0" VerticalAlignment="Top"/>
         <Label Content="Faculty Of Engineering &#xD;&#xA;Cairo University&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>

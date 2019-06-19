@@ -3,11 +3,11 @@ A small desktop game like normal tic tac toe but more complex and has a lot of w
 
 ## Winning Cases:
 
-![wining-cases](winning_cases.png)
+![wining-cases](images/winning_cases.png)
 
 ## Screenshot from the program:
 
-![screenshot](screenshot.png)
+![screenshot](images/screenshot.png)
 
 ## Download:
 
