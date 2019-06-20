@@ -1,5 +1,5 @@
 # CircularTicTacToe
-A small desktop game like normal tic tac toe but more complex and has a lot of winning cases
+A small desktop tic-tac-toe game played on a circle and has a lot of winning cases
 
 ## Winning Cases:
 
