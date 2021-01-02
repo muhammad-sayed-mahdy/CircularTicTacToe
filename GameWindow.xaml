@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
-        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Class="WpfApp1.GameWindow"
+        xmlns:ed="clr-namespace:Microsoft.Expression.Shapes;assembly=Microsoft.Expression.Drawing" xmlns:ed1="http://schemas.microsoft.com/expression/2010/drawing" x:Class="WpfApp1.GameWindow"
         mc:Ignorable="d" Height="450" Width="522" BorderBrush="#FF8AB7F1" ResizeMode="NoResize" Title="Circular Tic Tac Toe" Closing="Window_Closing" Icon="images/xo.png">
     <Grid Margin="0,1,-8,-2" HorizontalAlignment="Left" VerticalAlignment="Top">
 
@@ -106,7 +106,7 @@
         <ed:Arc x:Name="o29" ArcThickness="1" ArcThicknessUnit="Percent" EndAngle="360" HorizontalAlignment="Left" Height="15" Margin="117,148,0,0" Stretch="None" Stroke="Red" VerticalAlignment="Top" Width="15" StrokeThickness="3" Visibility="Collapsed"/>
         <ed:Arc x:Name="o30" ArcThickness="1" ArcThicknessUnit="Percent" EndAngle="360" HorizontalAlignment="Left" Height="15" Margin="112.5,255,0,0" Stretch="None" Stroke="Red" VerticalAlignment="Top" Width="15" StrokeThickness="3" Visibility="Collapsed"/>
         <ed:Arc x:Name="o31" ArcThickness="1" ArcThicknessUnit="Percent" EndAngle="360" HorizontalAlignment="Left" Height="15" Margin="190,329,0,0" Stretch="None" Stroke="Red" VerticalAlignment="Top" Width="15" StrokeThickness="3" Visibility="Collapsed"/>
-        <ed:LineArrow x:Name="ReturnButton" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="42" Margin="19,19,0,0" Stroke="#FF8AB7F1" VerticalAlignment="Top" Width="42" BendAmount="1" StartArrow="Arrow" EndArrow="NoArrow" StrokeThickness="8" MouseEnter="LineArrow_MouseEnter" MouseLeave="ReturnButton_MouseLeave" MouseLeftButtonDown="ReturnButton_MouseLeftButtonDown"/>
+        <ed1:LineArrow x:Name="ReturnButton" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="42" Margin="19,19,0,0" Stroke="#FF8AB7F1" VerticalAlignment="Top" Width="42" BendAmount="1" StartArrow="Arrow" EndArrow="NoArrow" StrokeThickness="8" MouseEnter="LineArrow_MouseEnter" MouseLeave="ReturnButton_MouseLeave" MouseLeftButtonDown="ReturnButton_MouseLeftButtonDown"/>
 
     </Grid>
 </Window>

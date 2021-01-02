@@ -29,6 +29,7 @@ namespace WpfApp1
         private List<int>[] spirals = new List<int>[32];
         private List<int>[] rings = new List<int>[32];
         private List<int>[] lines = new List<int>[32];
+        private int maxDepth = 4;
 
         public GameLogic()
         {
@@ -75,14 +76,24 @@ namespace WpfApp1
         private int evaluate(moveType player, int[] gameMatrix)
         {
             moveType opp = (moveType)(-1 * (int)player);
+            int sScore = 0; //state score
             for (int i = 0; i < 56; i++)
             {
-                if (gameMatrix[i] == 4 * (int)player)
-                    return 100;
-                else if (gameMatrix[i] == 4 * (int)opp)
-                    return -100;
+                if (gameMatrix[i] == (int)player * 4)
+                    sScore += (int)1e6;
+                else if (gameMatrix[i] == (int)opp * 4)
+                    sScore -= (int)1e6;
+                else if (gameMatrix[i] == (int)player * 3)
+                    sScore += (int)1e3;
+                else if (gameMatrix[i] == (int)opp * 3)
+                    sScore -= (int)1e3;
+                else if (gameMatrix[i] == (int)player * 2)
+                    sScore += 10;
+                else if (gameMatrix[i] == (int)opp * 2)
+                    sScore -= 10;
             }
-            return 0;
+
+            return sScore;
         }
 
         private int minimax(moveType[] visited, int[] gameMatrix, moveType player, int depth, bool isMax, int alpha, int beta)
@@ -96,7 +107,16 @@ namespace WpfApp1
                     break;
                 }
             }
-            if (finished)
+            bool won = false;
+            for (int i = 0; i < 56; i++)
+            {
+                if (Math.Abs(gameMatrix[i]) == 4)
+                {
+                    won = true;
+                    break;
+                }
+            }
+            if (finished || won || depth == maxDepth)
             {
                 int score = evaluate(player, gameMatrix);
                 if (score == 100)
@@ -260,10 +280,13 @@ namespace WpfApp1
                 if (visited[i] != moveType.EMPTY)
                     cnt++;
             }
+            if (cnt != 0 && cnt % 9 == 0)
+                maxDepth++;
+
             int move = -1;
-            if (level == levelType.EASY)
+            if (level == levelType.EASY || cnt == 0)
                 move = randomMove();
-            else if (level == levelType.HARD && cnt>=20)
+            else if (level == levelType.HARD)
                 move = findBestMove(type);
             else 
                 move = mediumMove(type);

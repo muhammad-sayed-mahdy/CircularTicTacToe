@@ -12,7 +12,7 @@ A small desktop tic-tac-toe game played on a circle and has a lot of winning cas
 ## Download:
 
 You can download the game from the following link:  
-[download](https://drive.google.com/open?id=14wUUJ_mAY8Mg4TI37794a9aXG7vmgumI)
+[download](https://drive.google.com/file/d/1uA1a9Eaw6_BSmFHZA4puh5sduhl65R8-/view?usp=sharing)
 
 ## Development:
 
